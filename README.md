@@ -1,19 +1,20 @@
-# NO2toTIF
+# NO2toTIF 🌫️➡️🗺️
 
-> Transformando arquivos atmosféricos em imagens, porque nem só de ar vive o cientista!
+> Transformando arquivos atmosféricos em imagens, porque nem só de ar vive o cientista! 😄
 
-## O que é isso?
+## O que é isso? 🤔
 
 Este repositório contém um notebook (.ipynb) que faz o seguinte:
-- Abre um arquivo SurfaceNO2.nc (sim, aquele grandão, cheio de dados atmosféricos de dióxido de nitrogênio!).
-- Recorta a área de interesse (você escolhe, sem complicação!).
-- Salva o resultado bonitinho no formato .tif, pronto para análise, mapas, ou aquela figurinha marota no relatório.
+- Abre um arquivo SurfaceNO2.nc (sim, aquele grandão, cheio de dados atmosféricos de dióxido de nitrogênio! 🧪)
+- Recorta a área de interesse (você escolhe, sem complicação! ✂️)
+- Salva o resultado bonitinho no formato .tif, pronto para análise, mapas, ou aquela figurinha marota no relatório 🖼️
 
-## Por quê?
+## Por quê? 🤷
 
-Porque ninguém merece sofrer para converter dados do NetCDF (.nc) para GeoTIFF (.tif)! Se você já ficou horas xingando o computador, esse repositório é pra você.
+Porque ninguém merece sofrer para converter dados do NetCDF (.nc) para GeoTIFF (.tif)!  
+Se você já ficou horas xingando o computador, esse repositório é pra você. 🥲
 
-## Como usar?
+## Como usar? 🚀
 
 1. **Clone este repositório**  
    ```bash
@@ -39,11 +40,11 @@ Porque ninguém merece sofrer para converter dados do NetCDF (.nc) para GeoTIFF 
    E execute o arquivo `NO2toTIF.ipynb`.
 
 4. **Siga as instruções no notebook!**  
-   - Escolha o arquivo .nc
-   - Defina sua área de interesse (por coordenadas)
-   - Execute as células e... voilá! Seu .tif estará salvo.
+   - Escolha o arquivo .nc 📂
+   - Defina sua área de interesse (por coordenadas) 🌍
+   - Execute as células e... voilá! Seu .tif estará salvo 🎉
 
-## Requisitos
+## Requisitos 📋
 
 - Python 3.8+
 - [netCDF4](https://unidata.github.io/netcdf4-python/)
@@ -51,7 +52,7 @@ Porque ninguém merece sofrer para converter dados do NetCDF (.nc) para GeoTIFF 
 - numpy
 - matplotlib (opcional, só pra visualizar e se gabar)
 
-## Exemplo de uso
+## Exemplo de uso 💡
 
 ```python
 from netCDF4 import Dataset
@@ -61,14 +62,15 @@ import numpy as np
 # Seu código maravilhoso vai aqui!
 ```
 
-## Contribua!
+## Contribua! ✨
 
-Achou um bug? Quer adicionar um novo filtro, sabor ou cor? Mande um PR, abra uma issue ou envie um emoji de agradecimento. Toda ajuda é bem-vinda!
+Achou um bug? Quer adicionar um novo filtro, sabor ou cor?  
+Mande um PR, abra uma issue ou envie um emoji de agradecimento. Toda ajuda é bem-vinda! 🤗
 
-## Licença
+## Licença 📄
 
 MIT, porque compartilhar conhecimento é o que move a ciência (e salvar tempo também!).
 
 ---
 
-> Dica de ouro: respirar fundo antes de rodar o notebook resolve 90% dos problemas. Para os outros 10%, existe o StackOverflow.
+> 💡 Dica de ouro: respirar fundo antes de rodar o notebook resolve 90% dos problemas. Para os outros 10%, existe o StackOverflow. 😅
